@@ -1,4 +1,5 @@
 # threadpool
-Simple threadpool implementation using templates and lambdamagic
-Heavily inspired (Much of the code comes from there, this is more or less a slimmed down version)
-    https://github.com/progschj/ThreadPool/
+Simple header-only threadpool inspired by https://github.com/progschj/ThreadPool/ (Jakob Progsch, Václav Zeman)
+
+
+Comes with a threadsafe queue and a simple interface to enqueue tasks and return an std::future object.
